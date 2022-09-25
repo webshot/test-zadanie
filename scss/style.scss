@@ -1,0 +1,14 @@
+//Конвертируется в .css в папку /css/
+@import 'hero';
+@import 'header';
+@import 'checkbox';
+@import 'input';
+@import 'footer';
+
+body{
+    background-image: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 4000px;
+    background-position: center;
+    color: white;
+}

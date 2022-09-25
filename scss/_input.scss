@@ -1,0 +1,23 @@
+input{
+    margin-top: 2px;
+    width: 80%;
+    background-color: black;
+    border: none;
+    color: white;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+input[type='text']{
+    color: #7E52FD;
+}
+
+input[placeholder]{
+    padding-left: 10px;
+    color: #7E52FD;
+}
+
+::-webkit-input-placeholder{
+    color: #7E52FD;
+}

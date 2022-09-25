@@ -1,0 +1,27 @@
+
+
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-effect{
+    width: 50%;
+    height: 62px;
+    background-color: black;
+    transition: .2s ease;
+    text-align: center;
+    border: none;
+
+    &:hover{
+        background-color: #5318FC;
+    }
+}
+
+.text-effect{
+    font-size: 24px;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}

@@ -1,0 +1,57 @@
+.container {
+    display: block;
+    position: relative;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .container .check-highload {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .highload2 {
+    margin-top: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: black;
+  }
+  
+  .container .check-highload:checked ~ .highload2 {
+    background-color: black;
+  }
+  
+  .highload2:after {
+    content: "";
+    position: absolute;
+  }
+  
+  .container .check-highload:checked ~ .highload2:after {
+      opacity: 0%;
+  }
+  
+  .container .highload2:after {
+    left: 8px;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    background: #5318FC;
+    opacity: 1;
+  }
+
+  .text-effect-check{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: -179px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
